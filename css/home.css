@@ -1,0 +1,132 @@
+.banner{
+    width: 100%;
+    height: 100vh;
+    background: url("../img/banner2.png") no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.banner_con{
+    width: 100%;
+    height: 300vh;
+    transition: all 0.5s ease;
+}
+.banner_con>div{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.con1_con{
+    width: 90%;
+    margin: 6vw auto 0 auto;
+    position: relative;
+}
+.box_right{
+    width: 35vw;
+    height: 35vw;
+    background-color: #EEAC95;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box_right_img{
+    width: 35%;
+}
+.box_left{
+    width: 60%;
+    background-color: #ABB99C;
+    position: absolute;
+    left: 5%;
+    top: 10vw;
+    padding: 1vw 2vw 2vw 2vw;
+    box-sizing: border-box;
+}
+.left_title{
+    color: white;
+    font-size: 4vw;
+    font-family: BreadleySans-Regular;
+}
+.left_text{
+    color: white;
+    font-family: BreadleySans-Regular;
+    font-size: 1.5vw;
+}
+.left_text_botom{
+    width: 60%;
+    margin-top: 1vw;
+    color: white;
+}
+.seeMore{
+    color: #7D8D63;
+    display: inline-block;
+    border-bottom: 2px solid #EFAD96;
+    position: absolute;
+    right: 15%;
+    bottom: -15%;
+    font-family: 'sourcehan sans';
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.seeMore:hover{
+    color: #EFAD96;
+}
+.box_right_img2{
+    width: 60%;
+}
+.con1{
+
+}
+.con2{
+
+}
+.con3{
+
+}
+@media screen and (max-width: 1026px) {
+    .con1_con {
+        width: 100%;
+        margin-top: 6vw;
+    }
+    .con1_con > div {
+        position: unset;
+        width: 80%;
+        margin: 2vw auto;
+        height: auto;
+    }
+    .box_right{
+        padding: 3vw 0;
+    }
+    .box_right_img {
+        width: 28%;
+    }
+    .seeMore{
+        color: #fff;
+        display: inline-block;
+        border-bottom: 2px solid #EFAD96;
+        position: absolute;
+        right: 15%;
+        bottom: 2%;
+        font-family: 'sourcehan sans';
+    }
+}
+@media screen and (max-width: 780px) {
+    .con1_con {
+        width: 100%;
+        margin-top: 20vw;
+    }
+    .con1_con > div {
+        position: unset;
+        width: 80%;
+        margin: 2vw auto;
+        height: auto;
+    }
+    .box_right{
+        padding: 3vw 0;
+    }
+    .box_right_img {
+        width: 28%;
+    }
+}

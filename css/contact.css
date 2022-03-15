@@ -1,0 +1,19 @@
+.banner{
+    width: 100%;
+    min-height: 100vh;
+    background: url("../img/banner1.png") no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner_con{
+    width: 80%;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    margin: 6vw 0;
+}
+@media screen and (max-width: 960px){
+    .banner_con{
+        width: 100%;
+    }
+}

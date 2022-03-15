@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'BaskervilleBT';
+    src: url("../font/BaskervilleBT.ttf");
+}
+@font-face {
+    font-family: 'BreadleySans-Regular';
+    src: url("../font/BreadleySans-Regular.ttf");
+}
+@font-face {
+    font-family: 'couture-bld';
+    src: url("../font/couture-bld.otf");
+}
+@font-face {
+    font-family: 'PingFang Light';
+    src: url("../font/PingFang Light.ttf");
+}
+@font-face {
+    font-family: 'SourceHanSansCN-Bold';
+    src: url("../font/SourceHanSansCN-Bold.otf");
+}
+html{
+    font-size: 10px;
+}
+.navbar-default {
+    background-color: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
+}
+.actives{
+    background-color: rgba(0,0,0,0) !important;
+}
+
+.nav>li>a{
+    color: #ABB99C !important;
+    font-family: sourcehan sans;
+    transition: all 0.3s;
+    font-size: 2rem;
+}
+.actives>a{
+    color: #ABB99C !important;
+    border-bottom: 2px solid #ABB99C;
+}
+.nav>li>a:hover{
+    color: #EFAD96 !important;
+}
+header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+img{
+    width: 100%;
+    display: block;
+}

@@ -24,7 +24,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">START</a>
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" style="width: 5vw;z-index: 999;"/>
+                </a>
             </div>
             <div class="collapse navbar-collapse" id="example-navbar-collapse">
                 <ul class="nav navbar-nav" style="float: right">
@@ -49,7 +51,28 @@
 <div class="banner">
     <div class="banner_con">
         <img src="img/contact.png"/>
+        <div class="contact_title">Contact Me</div>
+        <div class="ele_list">
+            <div>
+                <div><img src="img/dianhua.png"/></div>
+                <p>778-960-3320</p>
+            </div>
+            <div>
+                <div><img src="img/xin.png" style="width: 60%"/></div>
+                <p>peggyrdj@gmail.com</p>
+            </div>
+            <div>
+                <div onclick="linkUrl()" style="cursor: pointer">
+                    <div class="link_text">LINKEDIN</div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
+<script>
+    function linkUrl() {
+        window.location.href='https://www.linkedin.com/in/tina-xiao-257483224'
+    }
+</script>
 </body>
 </html>

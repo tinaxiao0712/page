@@ -21,7 +21,7 @@
     padding: 1vw 2vw 2vw 2vw;
     box-sizing: border-box;
     right: -2vw;
-    top: 10%;
+    top: 13%;
 }
 
 .left_title {
@@ -43,8 +43,8 @@
 }
 
 .con2 {
-    width: 30vw;
-    height: 30vw;
+    width: 33vw;
+    height: 33vw;
     background-color: #ABB99C;
     position: absolute;
     left: 0;

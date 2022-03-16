@@ -11,6 +11,46 @@
     width: 80%;
     box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
     margin: 6vw 0;
+    position: relative;
+}
+.contact_title{
+    position: absolute;
+    color: #F47809;
+    font-size: 6vw;
+    left: 15%;
+    top: 15%;
+    font-family: 'BaskervilleBT';
+    font-style:oblique;
+    letter-spacing: 2vw;
+}
+.ele_list{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+}
+.ele_list>div>div{
+    width: 9vw;
+    height: 9vw;
+    background: #EFAD96;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 4vw;
+    border-radius: 100%;
+}
+.ele_list>div>p{
+    color: #EEAC95;
+    margin-top: 2vw;
+    text-align: center;
+    font-size: 1.3vw;
+    font-family: 'PingFang Light';
+}
+.link_text{
+    font-size: 1.3vw;
+    color: white;
+    font-family: 'PingFang Light';
 }
 @media screen and (max-width: 960px){
     .banner_con{
